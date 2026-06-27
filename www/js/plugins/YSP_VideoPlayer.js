@@ -22,15 +22,18 @@
  * Un-minified from the original webpack bundle, with three correctness/performance
  * fixes over the shipped version:
  *
- *   1. newVideo() no longer installs a per-frame `sprite.update = texture.update`.
- *      PIXI's VideoBaseTexture already auto-updates itself via ticker.shared while
- *      the source is playing (autoUpdate, on by default). The manual updater made
- *      MV's scene graph push a *second* GPU upload of every video frame each tick,
- *      doubling the per-frame video cost and dropping frames.
+ *   1. newVideo() drives the texture from MV's own per-frame `sprite.update` and
+ *      turns PIXI's autoUpdate OFF. MV runs its own render loop (it never ticks
+ *      PIXI.ticker.shared), so relying on autoUpdate alone leaves the video frozen
+ *      on its first frame inside the game's NW.js runtime (it looks like a static
+ *      image). The original plugin ran BOTH (manual update + autoUpdate), which
+ *      uploaded every frame to the GPU twice. We keep the engine-native manual
+ *      update (so it plays in both browser and .exe) but disable autoUpdate, so
+ *      each frame is uploaded exactly once.
  *
  *   2. playVideo() waits for the source to be ready before calling play(). The
  *      original fired play() blind, so a call issued right after newVideo() was a
- *      no-op until the webm had buffered - which is why play had to be spammed.
+ *      no-op until the webm had buffered, which is why play had to be spammed.
  *
  *   3. stopVideoById()/releaseVideo() actually destroy the texture (texture.destroy
  *      removes the <video> element from PIXI's cache, clears its src, and unhooks it
@@ -88,14 +91,62 @@
     }
 
     // Create a sprite for a video and register it under an id (default "video").
-    // Note: we deliberately do NOT add a manual texture.update() here - PIXI's
-    // VideoBaseTexture updates itself via ticker.shared while playing (fix #1).
+    //
+    // Frame updates: RPG Maker MV drives its scene graph from its OWN render loop
+    // (SceneManager.updateMain -> Graphics.render); it never runs PIXI.ticker. MV's
+    // Sprite.prototype.update only refreshes a child if that child has an update()
+    // method, and a plain PIXI.Sprite has none. PIXI's VideoBaseTexture.autoUpdate
+    // pushes new frames via ticker.shared instead which a real browser ticks, but
+    // the game's NW.js runtime (the .exe) does not for these textures, so only the
+    // first decoded frame is ever uploaded and the video renders as a still image.
+    //
+    // So we drive the texture from MV's per-frame update (the engine-native path,
+    // works in both browser and .exe) and turn autoUpdate OFF so each frame is
+    // uploaded exactly once, no double GPU upload (the perf concern that originally
+    // motivated dropping this updater).
     function newVideo(name, id) {
         if (id === undefined) {
             id = "video";
         }
         var sprite = new PIXI.Sprite(loadVideo(name));
         sprite._videoName = name; // remembered so teardown can free the texture
+
+        var baseTexture = sprite.texture.baseTexture;
+        baseTexture.autoUpdate = false; // never drive frames off ticker.shared
+        var source = baseTexture.source; // the <video> element
+
+        // Smoothness: BaseTexture.update() is unconditional (every call is a full
+        // texImage2D upload). Driving it once per MV tick (~60Hz) resamples a
+        // ~24-30fps webm out of phase with its own frame clock, which judders and
+        // re-uploads unchanged frames. requestVideoFrameCallback fires exactly once
+        // per newly *presented* video frame, so the texture tracks the video's
+        // native cadence: frame-accurate, no judder, no wasted uploads.
+        if (source && typeof source.requestVideoFrameCallback === "function") {
+            var pump = function () {
+                if (sprite._videoStopped) {
+                    return;
+                }
+                sprite.texture.update();
+                sprite._rvfcHandle = source.requestVideoFrameCallback(pump);
+            };
+            sprite._rvfcHandle = source.requestVideoFrameCallback(pump);
+            sprite.update = function () {}; // frames are driven by rVFC, not MV's loop
+        } else {
+            // Fallback (no rVFC): drive the texture from MV's render loop, but only
+            // upload when the frame actually advanced. A looping video otherwise
+            // re-uploads its held frame ~60x/s forever; the currentTime check skips
+            // those (and still catches the loop seam, where currentTime jumps back
+            // to ~0).
+            sprite._lastVideoTime = -1;
+            sprite.update = function () {
+                var t = this.texture.baseTexture.source.currentTime;
+                if (t !== this._lastVideoTime) {
+                    this._lastVideoTime = t;
+                    this.texture.update();
+                }
+            };
+        }
+
         videosById[id] = sprite;
         return sprite;
     }
@@ -133,7 +184,16 @@
     function stopVideo(sprite) {
         SceneManager._scene._spriteset.removeVideo(sprite);
         var texture = sprite.texture;
-        texture.baseTexture.source.pause();
+        var source = texture.baseTexture.source;
+        // Stop the rVFC pump before destroying the texture, so it can't fire one
+        // more time against a freed texture (loops keep presenting frames, so the
+        // pump would otherwise still be scheduled).
+        sprite._videoStopped = true;
+        if (sprite._rvfcHandle && source && typeof source.cancelVideoFrameCallback === "function") {
+            source.cancelVideoFrameCallback(sprite._rvfcHandle);
+            sprite._rvfcHandle = null;
+        }
+        source.pause();
         if (sprite._videoName) {
             delete textureCache[sprite._videoName];
         }
