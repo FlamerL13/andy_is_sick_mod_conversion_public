@@ -134,8 +134,11 @@
 		"l2NST6HS": "White Key",
 		"MHFXrtF4": "Bottle",
 		"KkQxzl0r": "Watering Can",
+
+
 		"kR5Fy4cp": "Andrew",
 		"x86GCl9v": "Ashley",
+		"___": " ",
 		"t1mR4QYN": "TV",
 		"kJ8dGf8G": "Andy",
 		"hpCv7MK8": "Leyley",
@@ -18899,11 +18902,12 @@
 		"ais1_0005":	["","And he is exceptionally warm, more so than this cheap blanket should make him feel."],
 		"ais1_0006":	["","He doesn't want it to be so, but he could only avoid the truth for so long."],
 		"ais1_0007":	["Andrew is sick."],
-		"ais1_0008":	["He decides it's best to stay in bed and rest,","using as little energy as possible."],
-		"ais1_0009":	["Considering his next meal was just as likely to be tomorrow as"
-						,"it would be 6 months from now, his life is on thin ice already."],
-		"ais1_0010":	["He assumes if he rests up for the next 1"
-						,"to 5 days and drinks plenty of water,--"],
+		"ais1_0008":	["He decides it's best to stay in bed and rest,\\fs[10]"
+						,"\\fs[28]using as little energy as possible."],
+		"ais1_0009":	["Considering his next meal was just as likely to be tomorrow as\\fs[10]"
+						,"\\fs[28]it would be 6 months from now, his life is on thin ice already."],
+		"ais1_0010":	["He assumes if he rests up for the next 1\\fs[10]"
+						,"\\fs[28]to 5 days and drinks plenty of water,--"],
 		"ais1_0011":	["--he should survive this ordeal with little to no nutrients."],
 		"ais1_0012":	["..."],
 		"ais1_0013":	["Maybe."],
@@ -18940,25 +18944,25 @@
 		"ais1_0044":	["","Before he can further convince her not to, he fell asleep."],
 		"ais1_0045":	["","As he said before, he was exceptionally warm."],
 		"ais1_0046":	["","His entire body worked up a cold sweat, making him thirsty as hell."],
-		"ais1_0047":	["The liquid from the soup hit the spot, but throughout the day, he still"
-						,"found his mouth to be as dry as a desert and his clothes soaked in sweat."],
+		"ais1_0047":	["The liquid from the soup hit the spot, but throughout the day, he still\\fs[10]"
+						,"\\fs[28]found his mouth to be as dry as a desert and his clothes soaked in sweat."],
 		"ais1_0048":	["","He just couldn't stop sweating and that didn't help him get any colder."],
 		"ais1_0049":	["\\>\\{\\{\"ANNDDDDDDYYY!!!!!!\""],
 		"ais1_0050":	["\"I made you some soup!\""],
-		"ais1_0051": 	["Annoyed, he glared at her as if he could burn a"
-						,"hole through her skull if he did it long enough."],
+		"ais1_0051": 	["Annoyed, he glared at her as if he could burn a\\fs[10]"
+						,"\\fs[28]hole through her skull if he did it long enough."],
 		"ais1_0052": 	["\"Don't call me Andy.\""],
 		"ais1_0053": 	["She held a bowl with steam coming out from the top."],
-		"ais1_0054": 	["He realized that was where that"
-						,"emaculate smell was coming from."],
-		"ais1_0055": 	["Somehow through his hungry driven haze, he had enough"
-						,"logic in his brain to question how this meal came to be."],
+		"ais1_0054": 	["He realized that was where that\\fs[10]"
+						,"\\fs[28]emaculate smell was coming from."],
+		"ais1_0055": 	["Somehow through his hungry driven haze, he had enough\\fs[10]"
+						,"\\fs[28]logic in his brain to question how this meal came to be."],
 		"ais1_0056": 	["\"Where'd you get these ingredients?\""],
 		"ais1_0057": 	["\"It's just spices and water. Don't worry about it!\""],
 		"ais1_0058": 	["He wished making soup was that easy."],
 		"ais1_0059": 	["Substance was needed for this delicious smell."],
-		"ais1_0060": 	["He knew for a fact they had no sort of"
-						,"vegetables and very few sorts of spices."],
+		"ais1_0060": 	["He knew for a fact they had no sort of\\fs[10]"
+						,"\\fs[28]vegetables and very few sorts of spices."],
 		"ais1_0061": 	["They did have one ingredient they could have used."],
 		"ais1_0062": 	["He could see that potential ingredient floating in the broth."],
 		"ais1_0063": 	["He hoped he wasn't right."],
@@ -18973,8 +18977,8 @@
 		"ais1_0072": 	["\"What other meat do we have?\""],
 		"ais1_0073": 	["His stomach churned."],
 		"ais1_0074": 	["Or at least he hoped it did."],
-		"ais1_0075": 	["The alternative would be a growl, and he didn't"
-						,"want to sink that low as a human yet."],
+		"ais1_0075": 	["The alternative would be a growl, and he didn't\\fs[10]"
+						,"\\fs[28]want to sink that low as a human yet."],
 		"ais1_0076": 	["\"Can I just have the broth?\""],
 		"ais1_0077": 	["\"He IS the broth.\""],
 		"ais1_0078": 	["\"Or the stock rather.\""],
@@ -18987,17 +18991,17 @@
 		"ais1_0085": 	["It's not like not eating him today would erase his sins."],
 		"ais1_0086": 	["Oh well..."],
 		"ais1_0087": 	["As he said before, he was exceptionally warm."],
-		"ais1_0088": 	["His entire body worked up a cold"
-						,"sweat, making him thirsty as hell."],
-		"ais1_0089": 	["The liquid from the soup hit the"
-						,"spot, but throughout the day,--"],
-		"ais1_0090": 	["--he still found his mouth to be as dry as"
-						,"a desert and his clothes soaked in sweat."],
-		"ais1_0091": 	["He just couldn't stop sweating and"
-						,"that didn't help him get any colder."],
+		"ais1_0088": 	["His entire body worked up a cold\\fs[10]"
+						,"\\fs[28]sweat, making him thirsty as hell."],
+		"ais1_0089": 	["The liquid from the soup hit the\\fs[10]"
+						,"\\fs[28]spot, but throughout the day,--"],
+		"ais1_0090": 	["--he still found his mouth to be as dry as\\fs[10]"
+						,"\\fs[28]a desert and his clothes soaked in sweat."],
+		"ais1_0091": 	["He just couldn't stop sweating and\\fs[10]"
+						,"\\fs[28]that didn't help him get any colder."],
 		"ais1_0092": 	["The heat from his body didn't keep him from sleeping,--"],
-		"ais1_0093": 	["--but a sudden change in temperature from"
-						,"his forehead was enough to wake him up."],
+		"ais1_0093": 	["--but a sudden change in temperature from\\fs[10]"
+						,"\\fs[28]his forehead was enough to wake him up."],
 		"ais1_0094": 	["\"Mmmm...\""],
 		"ais1_0095": 	["\"...Ashley...?\""],
 		"ais1_0096": 	["","Hey reader, her eyes are up there!"],
@@ -19039,15 +19043,18 @@
 		"ais1_0132": 	["\"Why...?\""],
 		"ais1_0133": 	["\"Why wouldn't I?\""],
 		"ais1_0134": 	["\"I'm understimulated in here!\""],
-		"ais1_0135": 	["\"You never got me that PS5 I wanted for"
-						,"my birthday so I can play \\FF[fortnite]\\c[11]\\oc[8]\\fs[30]Fortnite\\c[2]\\oc[10]\\fs[28]\\FF[0]!\""],
-		"ais1_0136": 	["\"And now I have to find 5,000 dollars to afford one on Ebay!\""],
-		"ais1_0137": 	["\"Plus portable computer phones weren't invented yet,--\""],
-		"ais1_0138": 	["\"--so I can't play \\FF[impostor]\\c[11]\\oc[15]\\fs[34]Among Us \\c[2]\\oc[10]\\fs[28]\\FF[0]or \\FF[genshinimpact]\\c[11]\\oc[8]\\fs[24]Genshin Impact \\c[2]\\oc[10]\\fs[28]\\FF[0]or"
-						,"\\FF[sonic]\\c[11]\\oc[2]\\fs[24]Sonic Dream Team \\c[2]\\oc[10]\\fs[28]\\FF[0]with all the other kids!\""],
-		"ais1_0139": 	["\"I don't have anything to play with and it's all your fault!\""],
-		"ais1_0140": 	["\"The least you can do is play with me but you want to"
-						,"catch a cold and lie in bed all day like some beta hoe!\""],
+		"ais1_0135": 	["\"You never got me that PS5 I wanted for\\fs[10]"
+						,"\\fs[28]my birthday so I can play \\FF[fortnite]\\c[11]\\oc[8]\\fs[30]Fortnite\\c[2]\\oc[10]\\fs[28]\\FF[0]!\""],
+		"ais1_0136": 	["\"And now I have to find 5,000\\fs[10]"
+						,"\\fs[28]dollars to afford one on Ebay!\""],
+		"ais1_0137": 	["\"Plus portable computer phones\\fs[10]"
+						,"\\fs[28]weren't invented yet,--\""],
+		"ais1_0138": 	["\"--so I can't play \\FF[impostor]\\c[11]\\oc[15]\\fs[34]Among Us \\c[2]\\oc[10]\\fs[28]\\FF[0]or \\FF[genshinimpact]\\c[11]\\oc[8]\\fs[24]Genshin Impact \\c[2]\\oc[10]\\fs[28]\\FF[0]or\\fs[10]"
+						,"\\fs[28]\\FF[sonic]\\c[11]\\oc[2]\\fs[24]Sonic Dream Team \\c[2]\\oc[10]\\fs[28]\\FF[0]with all the other kids!\""],
+		"ais1_0139": 	["\"I don't have anything to play\\fs[10]"
+						,"\\fs[28]with and it's all your fault!\""],
+		"ais1_0140": 	["\"The least you can do is play with me but you want to\\fs[10]"
+						,"\\fs[28]catch a cold and lie in bed all day like some beta hoe!\""],
 		"ais1_0141": 	["\"Pay what you owe, bitch!\""],
 		"ais1_0142": 	["\"...\""],
 		"ais1_0143": 	["\"What!?\""],
@@ -19062,35 +19069,35 @@
 		"ais1_0152": 	["","Ashley was ready though."],
 		"ais1_0153": 	["\"Ooooh. Did I find it?\""],
 		"ais1_0154": 	["\"N...no...\""],
-		"ais1_0155": 	["As he tried to play dumb, Ashley helped herself"
-						,"to swirl her finger in tiny circles."],
-		"ais1_0156": 	["His muscles threatened to twitch from her touch"
-						,"and a groan sat at the back of his throat--"],
+		"ais1_0155": 	["As he tried to play dumb, Ashley helped herself\\fs[10]"
+						,"\\fs[28]to swirl her finger in tiny circles."],
+		"ais1_0156": 	["His muscles threatened to twitch from her touch\\fs[10]"
+						,"\\fs[28]and a groan sat at the back of his throat--"],
 		"ais1_0157": 	["--waiting for the right opportunity to emerge unguarded."],
-		"ais1_0158": 	["He relieved those involuntary impulses"
-						,"by exhaling slowly through his nose."],
+		"ais1_0158": 	["He relieved those involuntary impulses\\fs[10]"
+						,"\\fs[28]by exhaling slowly through his nose."],
 		"ais1_0159": 	["Sadly that, in turn, brought to light another bodily reaction." ],
 		"ais1_0160": 	["He felt a light tug between his legs."],
-		"ais1_0161": 	["It's been there for a minute, but accompanied"
-						,"with a tingling sensation in his chest,--"],
+		"ais1_0161": 	["It's been there for a minute, but accompanied\\fs[10]"
+						,"\\fs[28]with a tingling sensation in his chest,--"],
 		"ais1_0162": 	["--it was growing to be more obvious than he would like."],
-		"ais1_0163": 	["\\fs[27]He looked into his sister's familiar eyes, seducing him wordlessly,"
-						,"encouraging him to commit wickid and vile deeds."],
-		"ais1_0164": 	["He was a sick bastard with disturbing, forbidden needs,"
-						,"but she was just confused about what it means to be in love."],
+		"ais1_0163": 	["\\fs[27]He looked into his sister's familiar eyes, seducing him wordlessly,\\fs[10]"
+						,"\\fs[28]encouraging him to commit wickid and vile deeds."],
+		"ais1_0164": 	["He was a sick bastard with disturbing, forbidden needs,\\fs[10]"
+						,"\\fs[28]but she was just confused about what it means to be in love."],
 		"ais1_0165": 	["He didn't want to take advantage of that."],
-		"ais1_0166": 	["He loved her more than anything and didn't know how"
-						,"he'd live with himself if he hurt her in any way."],
-		"ais1_0167": 	["He decided his resolve long ago and was"
-						,"determined to oblige by it for her safety."],
-		"ais1_0168": 	["But there were times where she made"
-						,"it harder for him than others."],
-		"ais1_0169": 	["He basked in this moment a bit longer"
-						,"before he brought himself back to reason."],
+		"ais1_0166": 	["He loved her more than anything and didn't know how\\fs[10]"
+						,"\\fs[28]he'd live with himself if he hurt her in any way."],
+		"ais1_0167": 	["He decided his resolve long ago and was\\fs[10]"
+						,"\\fs[28]determined to oblige by it for her safety."],
+		"ais1_0168": 	["But there were times where she made\\fs[10]"
+						,"\\fs[28]it harder for him than others."],
+		"ais1_0169": 	["He basked in this moment a bit longer\\fs[10]"
+						,"\\fs[28]before he brought himself back to reason."],
 		"ais1_0170": 	["\"A-Ashley...\""],
 		"ais1_0171": 	["\"...Don't do th--\""],
-		"ais1_0172": 	["\\>\\{\\{\"PURPLE NURPLE!\""],
-		"ais1_0173": 	["\\>\\{\\{\"GOTTEM!\""],
+		"ais1_0172": 	["\\c[0]\\oc[15]\\>Ashley\\<","\\c[2]\\oc[10]\\>\\{\\{\"PURPLE NURPLE!\""],
+		"ais1_0173": 	["\\c[0]\\oc[15]\\>Ashley\\<","\\c[2]\\oc[10]\\>\\{\\{\"GOTTEM!\""],
 		"ais1_0174": 	["","He had a dream that he was jerking off."],
 		"ais1_0175": 	["","This time he was aware he was dreaming."],
 		"ais1_0176": 	["","That nipple thing did get him a little hot and bothered."],
@@ -19101,27 +19108,28 @@
 		"ais1_0181": 	["","Upon thinking about it some more, he figured he could just take a shower and keep the door locked."],
 		"ais1_0182": 	["","With some concentration, he managed to bring himself back to the conscious world."],
 		"ais1_0183": 	["","..."],
-		"ais1_0184": 	["To his dismay, he found this stimulation wasn't purely mental."],
-		"ais1_0185": 	["He was both surprised and not that Ashley"
-						,"would help herself with his guard down."],
-		"ais1_0186": 	["He knew she wanted to, but to go so far"
-						,"to execute that idea was another story,--"],
+		"ais1_0184": 	["To his dismay, he found this\\fs[10]"
+						,"\\fs[28]stimulation wasn't purely mental."],
+		"ais1_0185": 	["He was both surprised and not that Ashley\\fs[10]"
+						,"\\fs[28]would help herself with his guard down."],
+		"ais1_0186": 	["He knew she wanted to, but to go so far\\fs[10]"
+						,"\\fs[28]to execute that idea was another story,--"],
 		"ais1_0187": 	["--a line he didn't think she would cross so casually."],
-		"ais1_0188": 	["At the sight of her escapades, any signs of fatigue"
-						,"dissipated and he was given a spike of energy."],
+		"ais1_0188": 	["At the sight of her escapades, any signs of fatigue\\fs[10]"
+						,"\\fs[28]dissipated and he was given a spike of energy."],
 		"ais1_0189": 	["\\{\"WHAT THE FUCK, ASHLEY!?!?!\""],
 		"ais1_0190": 	["\"Oh hey, what's up bro!\""],
-		"ais1_0191": 	["\"You kept humping the covers like a weirdo,"
-						,"so I thought I'd help a brother out.\""],
+		"ais1_0191": 	["\"You kept humping the covers like a weirdo,\\fs[10]"
+						,"\\fs[28]so I thought I'd help a brother out.\""],
 		"ais1_0192": 	["\"But don't worry. I got socks on, so it's not gay.\""],
 		"ais1_0193": 	["\"THAT'S NOT THE PROBLEM, YOU DUMB BITCH--!\""],
 		"ais1_0194": 	["\"...!\""],
-		"ais1_0195": 	["He covered his mouth before an embarrassing"
-						,"sound could escape his lips."],
-		"ais1_0196": 	["He felt paralyzed, unable to so much as"
-						,"reach for her hand if he wanted to."],
-		"ais1_0197": 	["A dark part of him started"
-						,"to realize that he didn't."],
+		"ais1_0195": 	["He covered his mouth before an embarrassing\\fs[10]"
+						,"\\fs[28]sound could escape his lips."],
+		"ais1_0196": 	["He felt paralyzed, unable to so much as\\fs[10]"
+						,"\\fs[28]reach for her hand if he wanted to."],
+		"ais1_0197": 	["A dark part of him started\\fs[10]"
+						,"\\fs[28]to realize that he didn't."],
 		"ais1_0198": 	["\"You're WAY too old to be having wet dreams, Andy.\""],
 		"ais1_0199": 	["\"You should work on getting yourself a girlfriend.\""],
 		"ais1_0200": 	["\"Who's fault do you think that-\""],
@@ -19131,24 +19139,24 @@
 		"ais1_0204": 	["\"No homo.\""],
 		"ais1_0205": 	["\"What...?\""],
 		"ais1_0206": 	["\"...the fuck are you saying...?\""],
-		"ais1_0207": 	["\\fs[26]He tried to focus on something besides what was happening, whether"
-		 				,"it was his usual request for her to call him by his real name--"],
+		"ais1_0207": 	["\\fs[25]He tried to focus on something besides what was happening, whether\\fs[10]"
+						,"\\fs[28]it was his usual request for her to call him by his real name--"],
 		"ais1_0208": 	["--or inquire why Ashley, as a girl, was making no homo jokes."],
-		"ais1_0209": 	["\\fs[27]But his mind grew closer and closer to a blank as all his energy"
-		 				,"went to making sure he doesn't give her the satisfaction of a moan."],
+		"ais1_0209": 	["\\fs[27]But his mind grew closer and closer to a blank as all his energy\\fs[10]"
+						,"\\fs[26]went to making sure he doesn't give her the satisfaction of a moan.\\fs[28]"],
 		"ais1_0210": 	["This felt like everything his body craved for."],
-		"ais1_0211": 	["He dated a handful of girls to chase that high,"
-		 				,"and they always come just short of good enough."],
+		"ais1_0211": 	["He dated a handful of girls to chase that high,\\fs[10]"
+						,"\\fs[28]and they always come just short of good enough."],
 		"ais1_0212": 	["This felt actually right for once."],
 		"ais1_0213": 	["Which was what he was immensely afraid of."],
-		"ais1_0214": 	["What would he give to forget their relationship and his"
-		 				,"responsibilities as an older brother so he could just......"],
+		"ais1_0214": 	["What would he give to forget their relationship and his\\fs[10]"
+						,"\\fs[28]responsibilities as an older brother so he could just......"],
 		"ais1_0215": 	["......let go and feel."],
 		"ais1_0216": 	["But he can't."],
-		"ais1_0217": 	["She doesn't know what she's doing, and until"
-		 				,"she gets the help she needs, she never will."],
-		"ais1_0218": 	["His hand reached for the one stroking"
-		 				,"him, holding it firmly in place."],
+		"ais1_0217": 	["She doesn't know what she's doing, and until\\fs[10]"
+						,"\\fs[28]she gets the help she needs, she never will."],
+		"ais1_0218": 	["His hand reached for the one stroking\\fs[10]"
+						,"\\fs[28]him, holding it firmly in place."],
 		"ais1_0219": 	["\"Ashley.\""],
 		"ais1_0220": 	["\"Don't do that.\""],
 		"ais1_0221": 	["\"Bro, I told you, I got socks on. It's cool.\""],
@@ -19161,8 +19169,8 @@
 		"ais1_0228": 	["\"I'm your family, okay?\""],
 		"ais1_0229": 	["\"Family members don't do this together.\""],
 		"ais1_0230": 	["\"Do you understand?\""],
-		"ais1_0231": 	["Ashley leaned in close to his face, holding"
-		 				,"a stern expression he wasn't used to."],
+		"ais1_0231": 	["Ashley leaned in close to his face, holding\\fs[10]"
+						,"\\fs[28]a stern expression he wasn't used to."],
 		"ais1_0232": 	["\"Andrew.\""],
 		"ais1_0233": 	["The sound of his name widened his eyes."],
 		"ais1_0234": 	["\"I'm not 5 anymore.\""],
@@ -19170,13 +19178,14 @@
 		"ais1_0236": 	["\"I know what I'm doing.\""],
 		"ais1_0237": 	["\"I just don't care how fucked up it is.\""],
 		"ais1_0238": 	["\"You should know that by now.\""],
-		"ais1_0239": 	["\\fs[27]Hearing that outloud made him realize how much she has grown."],
-		"ais1_0240": 	["Before his eyes, she turned into a woman. Strong,"
-		 				,"courageous, and beautiful in her own right."],
-		"ais1_0241": 	["And even after all these years,"
-		 				,"kept him twiddled around her thumb."],
-		"ais1_0242": 	["The notion that he had any capability of taking"
-		 				,"advantage of her sounded ridiculous all of a sudden."],
+		"ais1_0239": 	["\\fs[27]Hearing that outloud made him\\fs[10]"
+						,"\\fs[28]realize how much she has grown."],
+		"ais1_0240": 	["Before his eyes, she turned into a woman. Strong,\\fs[10]"
+						,"\\fs[28]courageous, and beautiful in her own right."],
+		"ais1_0241": 	["And even after all these years,\\fs[10]"
+						,"\\fs[28]kept him twiddled around her thumb."],
+		"ais1_0242": 	["The notion that he had any capability of taking\\fs[10]"
+						,"\\fs[28]advantage of her sounded ridiculous all of a sudden."],
 		"ais1_0243": 	["\"Is it because you don't love me?\""],
 		"ais1_0244": 	["\"No!\""],
 		"ais1_0245": 	["\"I mean- I do!\""],
@@ -19187,52 +19196,52 @@
 		"ais1_0250": 	["She leaned closer, her intentions obvious."],
 		"ais1_0251": 	["Any efforts to stop her seemed pointless."],
 		"ais1_0252": 	["Her lips were soft."],
-		"ais1_0253": 	["When her fist returned to grasp and"
-		 				,"tug his cock, he gasped at the touch."],
+		"ais1_0253": 	["When her fist returned to grasp and\\fs[10]"
+						,"\\fs[28]tug his cock, he gasped at the touch."],
 		"ais1_0254": 	["For a moment, he thought he was at the point of no return."],
-		"ais1_0255": 	["He dared to open his eyes and they fell to"
-		 				,"her pants, hiding her unmentionables."],
-		"ais1_0256": 	["He could count on one hand how many times he imagined"
-		 				,"touching, licking, and fucking that place."],
-		"ais1_0257": 	["He tried to not allow himself the thought, but the fantasy was"
-		 				,"good to get him through the most mediocre sex in a pinch."],
-		"ais1_0258": 	["His heart raced when faced with his"
-		 				,"freedom to make his dreams a reality."],
+		"ais1_0255": 	["He dared to open his eyes and they fell to\\fs[10]"
+						,"\\fs[28]her pants, hiding her unmentionables."],
+		"ais1_0256": 	["He could count on one hand how many times he imagined\\fs[10]"
+						,"\\fs[28]touching, licking, and fucking that place."],
+		"ais1_0257": 	["He tried to not allow himself the thought, but the fantasy was\\fs[10]"
+						,"\\fs[28]good to get him through the most mediocre sex in a pinch."],
+		"ais1_0258": 	["His heart raced when faced with his\\fs[10]"
+						,"\\fs[28]freedom to make his dreams a reality."],
 		"ais1_0259": 	["He really could just reach over and..."],
-		"ais1_0260": 	["Without thinking his hand slithered"
-		 				,"inside her shorts and between her legs."],
-		"ais1_0261": 	["She didn't stop him. She even spread her legs,"
-		 				,"giving him as much free reign as he needed."],
-		"ais1_0262": 	["The thin fabric seperating his touch"
-		 				,"from her cunt was damp and humid."],
+		"ais1_0260": 	["Without thinking his hand slithered\\fs[10]"
+						,"\\fs[28]inside her shorts and between her legs."],
+		"ais1_0261": 	["She didn't stop him. She even spread her legs,\\fs[10]"
+						,"\\fs[28]giving him as much free reign as he needed."],
+		"ais1_0262": 	["The thin fabric seperating his touch\\fs[10]"
+						,"\\fs[28]from her cunt was damp and humid."],
 		"ais1_0263": 	["The voice of reason brought on this hesitance,--"],
-		"ais1_0264": 	["--still letting him know he had time to stop all this"
-		 				,"before they did something they couldn't take back."],
-		"ais1_0265": 	["With a tightened chest, he pressed his fingers"
-		 				,"ever so slightly just to feel the shape of her."],
-		"ais1_0266": 	["The cutest whimper uttered through her lips, and it was as"
-		 				,"if that voice in the back of his head was never there."],
-		"ais1_0267": 	["He dropped all inhibition and his"
-		 				,"fingers pushed passed her panties."],
+		"ais1_0264": 	["--still letting him know he had time to stop all this\\fs[10]"
+						,"\\fs[28]before they did something they couldn't take back."],
+		"ais1_0265": 	["With a tightened chest, he pressed his fingers\\fs[10]"
+						,"\\fs[28]ever so slightly just to feel the shape of her."],
+		"ais1_0266": 	["The cutest whimper uttered through her lips, and it was as\\fs[10]"
+						,"\\fs[28]if that voice in the back of his head was never there."],
+		"ais1_0267": 	["He dropped all inhibition and his\\fs[10]"
+						,"\\fs[28]fingers pushed passed her panties."],
 		"ais1_0268": 	["She felt hot..."],
 		"ais1_0269": 	["...and wet."],
 		"ais1_0270": 	["A finger slipped inside her cunt with ease."],
-		"ais1_0271": 	["He felt her ridgid walls close around him, and he could vividly"
-		 				,"feel how tight she'd be with his cock inside her."],
+		"ais1_0271": 	["He felt her ridgid walls close around him, and he could vividly\\fs[10]"
+						,"\\fs[28]feel how tight she'd be with his cock inside her."],
 		"ais1_0272": 	["He involuntarily humped into her hand at the thought."],
-		"ais1_0273": 	["But he knew better than to try to go"
-		 				,"for her g-spot for the first time."],
-		"ais1_0274": 	["He would, but not knowing the next time he'll"
-		 				,"get the balls to be this intimate with her,--"],
-		"ais1_0275": 	["--he wanted to get as much out of this experience"
-		 				,"as he could, including watching her cum."],
-		"ais1_0276": 	["His best bet was her clit, clutching it between his two"
-		 				,"fingers and dragging it around as far as it would stretch."],
+		"ais1_0273": 	["But he knew better than to try to go\\fs[10]"
+						,"\\fs[28]for her g-spot for the first time."],
+		"ais1_0274": 	["He would, but not knowing the next time he'll\\fs[10]"
+						,"\\fs[28]get the balls to be this intimate with her,--"],
+		"ais1_0275": 	["--he wanted to get as much out of this experience\\fs[10]"
+						,"\\fs[28]as he could, including watching her cum."],
+		"ais1_0276": 	["His best bet was her clit, clutching it between his two\\fs[10]"
+						,"\\fs[28]fingers and dragging it around as far as it would stretch."],
 		"ais1_0277": 	["\\c[7]","Writing these sex scenes really validates how asexual I am."],
-		"ais1_0278": 	["Anyway, as heat bubbled below his stomach,"
-		 				,"he could feel her twitch and convulse."],
-		"ais1_0279": 	["Her lips pressed harder against his before"
-		 				,"opening her mouth to invite his tongue inside."],
+		"ais1_0278": 	["Anyway, as heat bubbled below his stomach,\\fs[10]"
+						,"\\fs[28]he could feel her twitch and convulse."],
+		"ais1_0279": 	["Her lips pressed harder against his before\\fs[10]"
+						,"\\fs[28]opening her mouth to invite his tongue inside."],
 		"ais1_0280": 	["","She tasted like salt and the soup from earlier."],
 		"ais1_0281": 	["","He loved it."],
 		"ais1_0282": 	["","And he loved how she touched him, and how he could make her squirm."],
@@ -19241,8 +19250,8 @@
 		"ais1_0285": 	["","......"],
 		"ais1_0286": 	["","........."],
 		"ais1_0287": 	["","The post-nut clarity hit him like a truck."],
-		"ais1_0288": 	["He had no idea how he was going to live with being the most"
-		 				,"abhorrent, depraved, fecal matter of a maggot unknown to man."],
+		"ais1_0288": 	["He had no idea how he was going to live with being the most\\fs[10]"
+						,"\\fs[28]abhorrent, depraved, fecal matter of a maggot unknown to man."],
 		"ais1_0289": 	["","In fact, he was so lost, he contemplated suicide."],
 		"ais1_0290": 	["\"Hey, Andy.\""],
 		"ais1_0291": 	["\"...\""],
@@ -19269,8 +19278,8 @@
 		"ais1_0312": 	["\"Not in a physical sense, anyway.\""],
 		"ais1_0313": 	["","In an emotional and moral sense, he felt terrible."],
 		"ais1_0314": 	["","Ashley wrapped her arms around her brother and basked in his higher than normal temperature."],
-		"ais1_0315": 	["\"Make sure to get better so you can"
-		 				,"give me a proper pounding next time!\""],
+		"ais1_0315": 	["\"Make sure to get better so you can\\fs[10]"
+						,"\\fs[28]give me a proper pounding next time!\""],
 		"ais1_0316": 	["","He hoped he had the restraint for there not be a next time."],
 		"ais1_0317": 	["","But for now he'll just forget it ever happened like he normally does."],
 		"ais1_0318":	["\\c[7]","The End."],

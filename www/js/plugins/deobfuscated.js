@@ -485,7 +485,7 @@ window.addEventListener("drop", function (_0x3423d8) {
 }, false);
 const FORMAT = "Format 1.0";
 DataManager.maxSavefiles = function () {
-  return 30;
+  return 50;
 };
 DataManager.sortDesc = function (_0x25a8bc) {
   return _0x25a8bc.sort((_0x537239, _0x96f2cc) => {

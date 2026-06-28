@@ -22,18 +22,13 @@ var $plugins =
 {"name":"AudioStreaming","status":true,"description":"Load audio faster and use only ogg files.","parameters":{"mode":"10","deleteM4a":"false"}},
 {"name":"stbvorbis_stream","status":false,"description":"","parameters":{}},
 {"name":"stbvorbis_stream_asm","status":false,"description":"","parameters":{}},
-{"name":"Yami_SkipTitle","status":false,"description":"Skip the title scene for testing purpose.","parameters":{}},
 {"name":"YSP_Preloader","status":true,"description":"v1.0.1 Plugin used to preload assets.","parameters":{}},
 {"name":"YSP_VideoPlayer","status":true,"description":"v1.0.0 Plugin used for playing video.","parameters":{}},
-{"name":"PixiApngAndGif","status":true,"description":"","parameters":{}},
-{"name":"ApngPicture","status":true,"description":"ApngSupportPlugin","parameters":{"PictureList":"[]","EnemyList":"[]","SideEnemyList":"[]","SceneApngList":"[]","DefaultLoopTimes":"0","AllStopSwitch":"0"}},
 {"name":"TDDP_BindPicturesToMap_MOD","status":true,"description":"1.0.7 Plugin Commands for binding pictures to the map and/or changing what layer they're drawn on.","parameters":{}},
 {"name":"YEP_X_MessageBacklog","status":true,"description":"v1.01 (Requires YEP_MessageCore.js) Add a message backlog\r\nfunction to your game's message system!","parameters":{"---Backlog Key---":"","LogKeyButton":"shift","EnableLogKey":"true","---Settings---":"","DefaultLogging":"true","LogSpecialInput":"true","SpecialInputFmt":"Â»%1","MaximumEntries":"20","ScrollBarEnabled":"true","ScrollBarColor":"0","ScrollBarSpriteCode":"\"// Establish basic measurements\\nvar padding = backlogWindow.standardPadding();\\nvar width = padding / 2;\\nvar height = Graphics.boxHeight;\\n\\n// Calculate number of visible rows\\nvar visibleRows = backlogWindow.height - padding * 2;\\nvisibleRows = Math.floor(visibleRows / backlogWindow.lineHeight());\\nif (visibleRows < backlogWindow.maxItems()) {\\n  height *= visibleRows / Math.max(1, backlogWindow.maxItems());\\n}\\n\\n// Calculate the size of a basic scrolling increment\\nvar max = Math.floor(Math.max(1, backlogWindow.maxItems()) / backlogWindow.maxCols()) - 1;\\nthis._increment = Graphics.boxHeight / Math.max(1, max);\\n\\n// Generate the bitmap\\nthis.bitmap = new Bitmap(width, height);\\nthis.bitmap.fillAll(backlogWindow.textColor(scrollBarColor));\"","ScrollSpeed":"4","ScrollWrap":"true","---Visual---":"","BackgroundType":"1","BackOpacity":"192","DimColor1":"rgba(0, 0, 0, 0.8)","DimColor2":"rgba(0, 0, 0, 0.8)","Picture":"","PictureOpacity":"255","PictureStretch":"true"}},
 {"name":"Gimmer_Core","status":true,"description":"v1.7.1 - General plugin framework for my other plugins","parameters":{"---Parameters---":"","debug":"false","Advanced Debug":"false","Start Game At Point":"0","Show Mouse Coordinates":"false","---Helpers---":"","Block F5 Reload":"false"}},
 {"name":"Gimmer_PauseArrowBeGone","status":true,"description":"v1.0 - Hide the pause arrow using a plugin command","parameters":{}},
 {"name":"CallMenu","status":true,"description":"v1.4.6 Call menu during messages\\choices on map by pressing one of the standard menu keys ESC, X, Insert, NUM 0.","parameters":{}},
-{"name":"MoreSaveSlots","status":true,"description":"","parameters":{}},
-{"name":"SimpleVoice","status":true,"description":"SimpleVoicePlugin","parameters":{"FolderName":"voice","OptionName":"Volume Voice","OptionValue":"100"}},
 {"name":"deobfuscated","status":true,"description":"","parameters":{}},
 {"name":"ARP_TitleCommandExit","status":true,"description":"v1.00 Adds an option in the title command window to close\r\ngame window.","parameters":{"Command Exit":"Quit Game","Show Exit":"true"}}
 ];
