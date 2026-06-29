@@ -1,12 +1,14 @@
 {
-    "name": "tcoaal",
+    "name": "Andy is Sick",
     "main": "index.html",
     "js-flags": "--expose-gc",
     "window": {
         "title": "",
         "toolbar": false,
-        "width": 816,
-        "height": 624,
-        "icon": "icon/icon.png"
+        "position": "center",
+        "width": 1270,
+        "height": 710,
+        "icon": "icon/icon.png",
+        "resizable": false
     }
 }
